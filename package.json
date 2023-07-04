@@ -1,0 +1,25 @@
+{
+  "name": "react-spring-raf-repro",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "tsc --outdir dist",
+    "type-check:watch": "tsc --noEmit --pretty --watch",
+    "pretest": "tsc --noEmit",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "everdimension",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.3.3",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "@react-spring/web": "^9.7.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
